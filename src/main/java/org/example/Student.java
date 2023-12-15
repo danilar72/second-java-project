@@ -1,9 +1,5 @@
 package org.example;
 
-abstract public class Student {
-    public Student() {
-    }
-    abstract void writeExam{
-        System.out.println();
-    }
+public abstract class Student {
+    public abstract void writeExam();
 }
